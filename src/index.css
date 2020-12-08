@@ -1,6 +1,4 @@
-:root {
-  --redux-color: #764abc;
-}
+
 
 html {
   height: 100%;
@@ -59,7 +57,7 @@ button {
 nav {
   display: flex;
   padding: 0;
-  background: var(--redux-color);
+  background: #fff;
 }
 
 nav section {
@@ -68,7 +66,7 @@ nav section {
 
 nav section h1,
 nav section {
-  color: white;
+  color:#000;
 }
 
 /* Main content */
@@ -78,10 +76,11 @@ section {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1.5rem;
+  text-align: center;
 }
 
 section h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .button {
@@ -222,7 +221,7 @@ main h2 {
 
 .todoapp {
   background: #fff;
-  min-width: 800px;
+  max-width: 800px;
   position: relative;
   display: flex;
   text-align: left;

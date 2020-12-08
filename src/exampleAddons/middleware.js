@@ -9,6 +9,6 @@ export const print2 = (storeAPI) => (next) => (action) => {
 }
 
 export const print3 = (storeAPI) => (next) => (action) => {
-  console.log('3')
+ setTimeout(() => console.log('3'), 20000) 
   return next(action)
 }
